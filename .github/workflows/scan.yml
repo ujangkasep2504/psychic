@@ -25,7 +25,7 @@ jobs:
       # Run proxy scanner
       - name: Start Scan
         run: |
-          bun install && bun run ./vless/proxyip.ts
+          bun install && bun run ./proxyip.ts
 
       # Publish the result
       - name: Publish Result
